@@ -35,6 +35,8 @@ jobs:
           no-cache: true
           push: true
           tags: bahmni/proxy:${{env.ARTIFACT_VERSION}},bahmni/proxy:latest
+          tags: juanjortega/bahmniproxy:${{env.ARTIFACT_VERSION}},juanjortega/bahmniproxy:latest
+
   trigger:
       name: Trigger auto deploy 
       runs-on: ubuntu-latest
