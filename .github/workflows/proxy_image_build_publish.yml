@@ -34,7 +34,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           no-cache: true
           push: true
-          tags: juanjortega/bahmniproxy:${{env.ARTIFACT_VERSION}},juanjortega/bahmniproxy:latest
+          tags: juanjortega/bahmni-proxy:${{env.ARTIFACT_VERSION}},juanjortega/bahmni-proxy:latest
 
   trigger:
       name: Trigger auto deploy 
